@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block Home %}downloads
+{% endblock Home %} 
+
+{% block body %}
+<div class="container4">
+<div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/static/img/download.png" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">DOWNLOAD</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This is open source under the GPL license. Everything we produce is available for you to download and use for free.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Download now</button>
+     
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="focusblock" style="min-height: 220px;">
+                            <h3>Standard </h3>
+                            <p>Install on your own server (requires a web server with PHP and a database).</p>
+                            <ul>
+                                <li><a href="#">Latest release</a></li>
+                                <li><a href="#">Obtaining via Git</a></li>
+                                <li><a href="#">Development releases</a></li>
+                            </ul>
+                        </div>
+    </div>
+    <div class="col">
+     <div class="focusblock" style="min-height: 220px;">
+                            <h3>Extend </h3>
+                            <div class="row-fluid">
+                                <div class="span7">
+                                    <p>Browse our extensive <a href="#"> plugins directory</a> for extra
+                                        <a href="#">activities</a>,
+                                        <a href="#">blocks</a>,
+                                        <a href="#">themes</a> and more.
+                                    </p>
+                                </div>
+                                <div class="offset1 span4">
+                                    <a href="#" title="Moodle plugins directory">
+                                    <img src="https://download.moodle.org/theme/image.php/moodleorgcleaned_downloads/theme_moodleorgcleaned/1633086785/plugins-icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+    <div class="col">
+      <div class="focusblock" style="min-height: 220px;">
+                            <h3>Mobile</h3>
+                            <div class="row-fluid">
+                                <div class="span7">
+                                    <p>Access learning at a touch of a button, even when offline with our
+                                       <a href="#"#Mobile app</a>. Available for Android and iOS.</p>
+                                </div>
+                                <div class="offset1 span4">
+                                    <a href="#" title="Moodle Mobile app">
+                                    <img class="img-responsive" src="https://download.moodle.org/theme/image.php/moodleorgcleaned_downloads/theme_moodleorgcleaned/1633086785/mobile-app-portrait">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

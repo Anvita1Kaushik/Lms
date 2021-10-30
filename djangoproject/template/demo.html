@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block Home %}demo
+{% endblock Home %} 
+
+{% block body %}
+<div class="container3">
+<div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+
+          {% comment %} <strong class="d-inline-block mb-2 text-primary">World</strong> {% endcomment %}
+          <a href="#"><h3 class="mb-0">SCHOOL</h3></a>
+
+          
+          <p class="card-text mb-auto">Explore action on this site populated with courses, activities and users.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+         <img src="/static/img/school.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          {% comment %} <strong class="d-inline-block mb-2 text-success">Design</strong> {% endcomment %}
+          <a href="#"><h3 class="mb-0">ONLINE</h3></a>
+          
+          <p class="mb-auto">Try standard features on this empty out-of-the-box site.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="/static/img/online.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+{% endblock body %}
